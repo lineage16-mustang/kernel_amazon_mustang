@@ -1,0 +1,15 @@
+
+config MTK_JSA1214
+	bool "JSA1214 for MediaTek package"
+	default n
+	help
+	  If this option is set, it will support
+	  ambient and light sensor JSA1214.
+
+config MTK_JSA1214_SWITCH_RANGE_AUTO
+	bool "JSA1214 support for switching range automatic"
+	default n
+	depends on MTK_JSA1214
+	help
+	  If this option is set, it will support
+	  for switching range automatic.
