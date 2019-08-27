@@ -40,8 +40,8 @@
 #define TIMEOUT 5000
 
 #define MD32_DEVICE_NAME		"md32"
-#define MD32_DATA_IMAGE_PATH	"md32_d.bin"
-#define MD32_PROGRAM_IMAGE_PATH	"md32_p.bin"
+#define MD32_DATA_IMAGE_PATH	"/firmware/image/md32_d.bin"
+#define MD32_PROGRAM_IMAGE_PATH	"/firmware/image/md32_p.bin"
 
 #define MD32_SEMAPHORE			(MD32_BASE + 0x90)
 #define MD32_CLK_CTRL_BASE		(md32reg.clkctrl)
